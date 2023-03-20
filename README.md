@@ -106,11 +106,11 @@ My Photography Readme
 
 I am the sole contributor to the development of this website.
 
-###  Media
+### Media
 
 All images used throughout the site have been provided by myself.
   
-###  Acknowledgments
+### Acknowledgments
 
 Thank you to all that have helped me. 
 name
