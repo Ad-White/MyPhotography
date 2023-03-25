@@ -55,3 +55,8 @@ h2 {
 a.active {
     color: #23e0e7;
 }
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+}
