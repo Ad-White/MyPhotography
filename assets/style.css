@@ -12,10 +12,15 @@ body {
     color: #54645e;
 }
 
+/* Logo ------------------------------------------------------------------------*/
+
 #logo {
     color: #eae8ff;
     float: left;
+    margin-left: 20px;
 }
+
+/* Headings --------------------------------------------------------------------*/
 
 h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -24,6 +29,8 @@ h1 {
 h2 {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Navigation Menu -------------------------------------------------------------*/
 
 #menu {
     font-size: 100%;
@@ -34,3 +41,11 @@ h2 {
     float: right;
     margin-right: 30px;
 }
+
+#menu a {
+    text-decoration: none;
+    color: #eae8ff;
+}
+
+
+
