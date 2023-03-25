@@ -56,7 +56,7 @@ As a returning site user, I would like to know of any new additions to the galle
 I have chosen a fairly monochromatic group of colours. Which has helped to provide good contrast, so I can promote the photographic content being displayed. To maximise the colours within them, and not 'fight' against the colours of the site itself.
 I've selected to use a vibrant blue to act as a high light. Eye catching without being over bearing. 
 
-- `#54645e` used for primary text.
+- `eae8ff` used for primary text.
 - `#23e0e7` used for primary highlights.
 - `#eae8ff` used for secondary text.
 - `#ade1e5` used for secondary highlights.

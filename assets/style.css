@@ -9,7 +9,7 @@
 body {
     background-color: #0e1116;
     font-family: 'Average Sans', sans-serif;
-    color: #54645e;
+    color: #eae8ff;
 }
 
 /* Logo ------------------------------------------------------------------------*/
@@ -32,20 +32,26 @@ h2 {
 
 /* Navigation Menu -------------------------------------------------------------*/
 
-#menu {
+.menu {
     font-size: 100%;
     list-style-type: none;
+    line-height: 50px;
 }
 
-#menu li {
+.menu li {
     float: right;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: #eae8ff;
 }
 
+.menu a:hover {
+    color: #23e0e7;
+}
 
-
+a.active {
+    color: #23e0e7;
+}
