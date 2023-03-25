@@ -7,11 +7,22 @@
 }
 
 body {
+    background-color: #0e1116;
     font-family: 'Average Sans', sans-serif;
     color: #54645e;
 }
 
 #logo {
     font-family: 'Cormorant Garamond', serif;
-    color: #54645e;
+    color: #eae8ff;
+    float: left;
+}
+
+#menu {
+    font-size: 110%;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
 }
