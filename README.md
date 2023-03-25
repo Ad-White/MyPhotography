@@ -25,7 +25,7 @@ I would like for people to easily navigate throughout the different pages of the
 
 I would like for people to easily select a category of photography to look through and enjoy.
 
-I would like them to want to return to my site again, in the future. As new photographs are added to my gallery.
+I would like them to want to return to my site again, in the future, as new photographs are added to my gallery.
 
 So, I would like to have a comments/feedback form, along with the possiblity for them to opt into receiving notification
 of any new photographic additions I have made to the galleries.
@@ -53,7 +53,20 @@ As a returning site user, I would like to know of any new additions to the galle
 
 ### Colour Scheme
 
-Add information about colour scheme used for my site here. 
+I have chosen a fairly monochromatic group of colours. Which has helped to provide good contrast, so I can promote the photographic content being displayed. To maximise the colours within them, and not 'fight' against the colours of the site itself.
+I've selected to use a vibrant blue to act as a high light. Eye catching without being over bearing. 
+
+- `#54645e` used for primary text.
+- `#23e0e7` used for primary highlights.
+- `#eae8ff` used for secondary text.
+- `#ade1e5` used for secondary highlights.
+- `#0e1116` used for primary background.
+- `#54645e` used for secondary background.
+- `#eae8ff` used for optional secondary background.
+
+I have used [coolors.co](https://coolors.co/eae8ff-54645e-0e1116-23e0e7-ade1e5) to generate my colour palette.
+
+![screenshot](documentation/my_photography_colours.png) 
 
 ### Typography
 
