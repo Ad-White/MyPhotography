@@ -70,19 +70,57 @@ I have used [coolors.co](https://coolors.co/eae8ff-54645e-0e1116-23e0e7-ade1e5) 
 
 ### Typography
 
-Include an image of the fonts chosen.
+- [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) was used for the primary site name.
+
+- [Open Sans](https://fonts.google.com/specimen/Open+Sans) was used for the primary headers and titles.
+
+- [Average Sans](https://fonts.google.com/specimen/Average+Sans) was used for all other secondary text.
+
+- [Font Awesome](https://fontawesome.com) icons were used, such as the social media icons in the footer.
+
+![screenshot](documentation/my_photography_typefaces.png) 
 
 ### Imagery
 
-All images used are my own. 
+All of the photographs/images used throughout the site are of my own creation.
+All rights to use them are my own. 
 
 ### Wireframes
 
-Add the original sketches for wireframes here.... As a link to open in its own page.
-Add the wireframe images for:-
-Mobile
-Tablet
-Laptop/Desktop
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Home Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile_home.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet_home.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop_home.png) |
+
+### Gallery Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile_gallery.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet_gallery.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop_gallery.png) |
+
+### Profile Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile_profile.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet_profile.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop_profile.png) |
+
+### Contact Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile_contact.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet_contact.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop_contact.png) |
 
 ## Features
 
@@ -108,7 +146,7 @@ JavaScript will be implemented, but via its usage within the boundries of Bootst
 ### Frameworks, Libraries & Programs Used
 
 amiresponsive
-colormind.io
+coloors.co
 fontjoy
 google fonts
 googel dev tools
