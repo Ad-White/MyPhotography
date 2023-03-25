@@ -13,13 +13,21 @@ body {
 }
 
 #logo {
-    font-family: 'Cormorant Garamond', serif;
     color: #eae8ff;
     float: left;
 }
 
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #menu {
-    font-size: 110%;
+    font-size: 100%;
+    list-style-type: none;
 }
 
 #menu li {
