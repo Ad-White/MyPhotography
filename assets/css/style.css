@@ -81,14 +81,25 @@ a.active {
 /* end of reference */
 
 #gallery-sections {
-    width: 66%;
+    width: 80%;
     background-color: #54645e;
-    
-    margin: 0 auto;
     border-radius:5px;
+    margin: 0 auto;
     margin-top: 20px;
+    
 }
 
 .welcome-title {
     text-align: center;
 }
+
+.card-landscape {
+    background-color: #eae8ff;
+    color: #54645e;
+    font-size: 38px;
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+}
+
+
