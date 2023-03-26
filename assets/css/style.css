@@ -175,3 +175,11 @@ footer {
     color: #0e1116;
     background-color: #23e0e7;
 }
+
+#gallery-carousel {
+    width: 100%;
+}
+
+.carousel-item {
+    max-height: 600px;
+}
