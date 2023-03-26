@@ -102,8 +102,7 @@ h2 {
     background-color: #54645e;
     border-radius:5px;
     margin: 0 auto;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 .welcome-title {
@@ -121,6 +120,19 @@ h2 {
     background-color: #eae8ff;
     color: #54645e;
    
+}
+
+.card-holder a {
+    color: #54645e;
+    text-decoration: none;
+}
+
+.card-holder a:hover {
+    color: #23e0e7;
+}
+
+.card-holder a:active {
+    color: #23e0e7;
 }
 
 /************   Footer   ****************/
