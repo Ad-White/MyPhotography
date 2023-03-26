@@ -93,13 +93,17 @@ a.active {
     text-align: center;
 }
 
+.card-holder {
+    padding: 2px;
+    margin: 10px;
+    font-size: 38px;
+    display: inline-block;
+}
+
 .card-landscape {
     background-color: #eae8ff;
     color: #54645e;
-    font-size: 38px;
-    display: inline-block;
-    padding: 2px;
-    margin: 10px;
+   
 }
 
 
