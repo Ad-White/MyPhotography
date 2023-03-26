@@ -96,7 +96,7 @@ h2 {
     }
 }
 /* end of reference */
-
+/*  Gallery Sections  */
 #gallery-sections {
     width: 80%;
     background-color: #54645e;
@@ -123,4 +123,29 @@ h2 {
    
 }
 
+/************   Footer   ****************/
 
+footer {
+    height: 56px;
+    background-color: #0e1116;
+    margin-top: 20px;
+}
+
+.social-media-links {
+    text-align: center;
+}
+
+.social-media-links li {
+    display: inline;
+}
+
+.social-media-links i {
+    margin: 1%;
+    padding-top: 1%;
+    color: #eae8ff;
+}
+
+.social-media-links a:hover {
+    color: #0e1116;
+    background-color: #23e0e7;
+}
