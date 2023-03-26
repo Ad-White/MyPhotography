@@ -71,8 +71,7 @@ h2 {
 .navbar-toggler-icon {
     background-color: #23e0e7;
 }
-
-/* Referenced from love running project, CodeInstitute */
+/* Referenced from love running project, CodeInstitute ------------------------*/
 #hero-image {
     height: 600px;
     width: 100%;
@@ -95,8 +94,8 @@ h2 {
         transform: scale(1.1);
     }
 }
-/* end of reference */
-/*  Gallery Sections  */
+/* End Of Reference -------------------------------------------------------------*/
+/* Gallery Sections -------------------------------------------------------------*/
 #gallery-sections {
     width: 80%;
     background-color: #54645e;
@@ -140,8 +139,18 @@ h2 {
     color: #23e0e7;
 }
 
-/************   Footer   ****************/
+/* Gallery Images ---------------------------------------------------------------*/
 
+.gallery-image-holder {
+    margin: 10px;
+    display: inline-block;
+}
+
+.gallery-image {
+    width: 300px;
+}
+
+/* Footer ----------------------------------------------------------------------*/
 footer {
     height: 56px;
     background-color: #0e1116;
