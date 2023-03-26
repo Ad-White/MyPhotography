@@ -55,9 +55,40 @@ h2 {
 a.active {
     color: #23e0e7;
 }
-
+/* Referenced from love running project, CodeInstitute */
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("/assets/images/white-flower.jpg");
+    background: url("/assets/images/white-flower.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+/* end of reference */
+
+#gallery-sections {
+    width: 66%;
+    background-color: #54645e;
+    
+    margin: 0 auto;
+    border-radius:5px;
+    margin-top: 20px;
+}
+
+.welcome-title {
+    text-align: center;
 }
