@@ -112,6 +112,7 @@ h2 {
 .card-holder {
     padding: 2px;
     margin: 10px;
+    margin-bottom: 5%;
     font-size: 38px;
     display: inline-block;
 }
@@ -119,7 +120,11 @@ h2 {
 .card-gallery-sections {
     background-color: #eae8ff;
     color: #54645e;
-   
+    border-radius: 4%;
+}
+
+.card-img-top {
+    height: 250px;
 }
 
 .card-holder a {
