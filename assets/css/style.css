@@ -17,7 +17,7 @@ body {
 #logo {
     color: #eae8ff;
     float: left;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 /* Headings --------------------------------------------------------------------*/
@@ -32,6 +32,10 @@ h2 {
 
 /* Navigation Menu -------------------------------------------------------------*/
 
+.gallery-nav-system {
+   
+    margin-top: 0;
+}
 .gallery-navbar {
     float: right;
 }
@@ -48,29 +52,26 @@ h2 {
     color: #23e0e7;
 }
 
-/* .menu {
-    font-size: 100%;
-    list-style-type: none;
-    line-height: 50px;
+.dropdown-menu {
+    background-color: #0e1116;
 }
 
-.menu li {
-    float: right;
-    margin-right: 30px;
-}
-
-.menu a {
-    text-decoration: none;
+.dropdown-item {
     color: #eae8ff;
 }
 
-.menu a:hover {
-    color: #23e0e7;
-} */
+.dropdown-item:hover {
+    background-color: #23e0e7;
+}
 
-/* a.active {
-    color: #23e0e7;
-} */
+.navbar-toggler {
+    border-color: #eae8ff;
+}
+
+.navbar-toggler-icon {
+    background-color: #23e0e7;
+}
+
 /* Referenced from love running project, CodeInstitute */
 #hero-image {
     height: 600px;
