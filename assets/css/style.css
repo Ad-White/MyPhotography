@@ -188,3 +188,7 @@ footer {
 .carousel-item {
     max-height: 600px;
 }
+
+.dropdown-item:hover {
+    background-color: #23e0e7;
+}
