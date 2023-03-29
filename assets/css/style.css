@@ -90,13 +90,14 @@ h2 {
     }
 }
 /* End Of Reference -------------------------------------------------------------*/
-/* Gallery Sections -------------------------------------------------------------*/
-#gallery-sections {
-    width: 85%;
+/* Gallery Display Area -------------------------------------------------------------*/
+#gallery-display-area {
+    width:90%;
     background-color: #54645e;
     border-radius:5px;
     margin: 0 auto;
-    margin-top: 20px;    
+    margin-top: 20px; 
+    padding-top: 3%;
 }
 
 .welcome-title {
@@ -111,14 +112,16 @@ h2 {
     display: inline-block;
 }
 
-.card-gallery-sections {
-    background-color: #eae8ff;
+.card-gallery {
+    background-color: #0e1116;
     color: #54645e;
     border-radius: 4%;
+    margin-bottom: 5%;
 }
 
 .card-img-top {
     height: 250px;
+    border-radius:5px;
 }
 
 .card-holder a {
@@ -134,15 +137,14 @@ h2 {
     color: #23e0e7;
 }
 
-/* Gallery Images ---------------------------------------------------------------*/
-
-.gallery-image-holder {
-    margin: 10px;
-    display: inline-block;
-}
-
-.gallery-image {
-    width: 300px;
+#gallery-display-area-landscape {
+    width:90%;
+    background-color: #54645e;
+    border-radius:5px;
+    margin: 0 auto;
+    margin-top: 20px; 
+    padding-top: 3%;
+    padding-bottom: 3%;    
 }
 
 /* Footer ----------------------------------------------------------------------*/
@@ -171,16 +173,5 @@ footer {
     background-color: #23e0e7;
 }
 
-#gallery-carousel {
-    width: 100%;
-    max-height: 600px;
-    overflow: hidden;
-}
 
-.carousel-item {
-    max-height: 600px;
-}
 
-/* .dropdown-item:hover {
-    background-color: #23e0e7;
-} */
