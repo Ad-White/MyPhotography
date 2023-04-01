@@ -164,6 +164,10 @@ h2 {
     --bs-btn-active-bg: #23e0e7;
     --bs-btn-hover-bg: #5c636a;
 }
+.modal-photo {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Footer ----------------------------------------------------------------------*/
 footer {

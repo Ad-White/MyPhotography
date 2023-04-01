@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!---- Source = Bootstrap 5 -------------------------------------------------------------->
+<!---- Source = Bootstrap 5.3.0 -------------------------------------------------------------->
     
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/5100fb2b9b.js" crossorigin="anonymous"></script>
 <!---- MyPhotography Style Sheet   ------------------------------------------------------>  
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>My Photography - Gallery - Sand and Sea</title>
+    <title>My Photography - Gallery - Sea & Sand</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
             <h1>My Photography - Adam White</h1>
         </div>
         <!--- Navigation ------------------------------------------------------------------------>
-        <!---- Navbar code sourced from Bootstrap 5. Getbootstrap.com / Adapted for my own use ---->
+        <!---- Navbar code sourced from Bootstrap 5.3.0 Getbootstrap.com / Adapted for my own use ---->
            
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
@@ -31,7 +31,7 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,7 +39,7 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="gallery_landscape.html">Landscape</a></li>
-                      <li><a class="dropdown-item" href="gallery_sea_and_sand.html">Sea & Sand</a></li>
+                      <li><a class="dropdown-item active" aria-current="page" href="gallery_sea_and_sand.html">Sea & Sand</a></li>
                       <li><a class="dropdown-item" href="gallery_digital.html">Digital</a></li>
                       <li><a class="dropdown-item" href="gallery_close_up.html">Close Up</a></li>
                     </ul>
@@ -55,65 +55,117 @@
             </div>
         </nav>
     </header>
-    <!-- ----- Hero Image ----------------------------------------------------------->
+    <!------- Hero Image ----------------------------------------------------------->
     <!------- Referenced from love running project, CodeInstitute ------------------> 
     <section id="hero-outer">
         <div id="hero-image"></div>       
     </section>
-        <!------- End of reference --------------------------------------------------- -->
-        <!------- Gallery Sections -----------------------------------------------------> 
-    <section id="gallery-sections">
-        <div class="welcome-title">
-            <h2>Welcome...</h2>
-                <div>Gallery Title</div>
-            <div class="card-holder">
-                <div class="card-gallery-sections" style="width: 18rem;" >
-                    <a href="gallery_landscape.html">
-                        <img src="assets/images/landscape.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <p class="card-text">Landscape</p>
-                    </a>
-                    </div>
-                </div>
+        <!------- End of reference ----------------------------------------------------->
+        <!------- Gallery Display Area -----------------------------------------------------> 
+    <section id="gallery-display-area-landscape">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_1">
+              <img src="assets/images/landscape.jpg"  class="card-img-top" alt="...">
+            </div>  
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_2">
+              <img src="assets/images/seascape.jpg"  class="card-img-top" alt="...">
+            </div>   
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_3">
+              <img src="assets/images/digital.jpg" class="card-img-top" alt="...">
+            </div> 
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_4">
+              <img src="assets/images/close_up.jpg" class="card-img-top" alt="...">
             </div>
-            <div class="card-holder">
-                <div class="card-gallery-sections" style="width: 18rem;">
-                    <a href="gallery_sea_and_sand.html">
-                        <img src="assets/images/seascape.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <p class="card-text">Sea & Sand</p>
-                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-holder">
-                <div class="card-gallery-sections" style="width: 18rem;">
-                    <a href="gallery_digital.html">
-                        <img src="assets/images/digital.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <p class="card-text">Digital</p>
-                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-holder">
-                <div class="card-gallery-sections" style="width: 18rem;">
-                    <a href="gallery_close_up.html">
-                        <img src="assets/images/close_up.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <p class="card-text">Close Up</p>
-                    </a>
-                    </div>
-                </div>
+          </div> 
+          </div>
+        </div>    
+      </div>               
+    </section>
+
+  
+        <!-- Modal - Source = Bootstrap 5.3.0 ---->
+        <div class="modal fade" id="galleryModal_1" tabindex="-1" aria-labelledby="galleryModalLabel_1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="galleryModal_1">Street Hill</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/images/landscape.jpg" class="card-img-top modal-photo" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+              </div>
             </div>
         </div>
-    </section>
+
+        <div class="modal fade" id="galleryModal_2" tabindex="-1" aria-labelledby="galleryModalLabel_2" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="galleryModal_2">West Bay</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/images/seascape.jpg" class="card-img-top modal-photo" alt="...">
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="galleryModal_3" tabindex="-1" aria-labelledby="galleryModalLabel_3" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="galleryModal_3">Flower</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/images/digital.jpg" class="card-img-top modal-photo" alt="...">
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="galleryModal_4" tabindex="-1" aria-labelledby="galleryModalLabel_4" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="galleryModal_4">Flower</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/images/close_up.jpg" class="card-img-top modal-photo" alt="...">
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
     <footer>
         <ul class="social-media-links">
             <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
-    </footer> 
+    </footer>   
 </body>
 </html>
