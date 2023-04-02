@@ -71,7 +71,7 @@ h2 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url("/assets/images/white-flower.jpg") no-repeat center center;
+    background: url("/assets/images/white_flower_hero.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
