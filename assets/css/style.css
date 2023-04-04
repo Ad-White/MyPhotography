@@ -53,6 +53,11 @@ h2 {
     color: #23e0e7;
 }
 
+.navbar .nav-link:active {
+    background-color: #ade1e5;
+    color: #0e1116;
+}
+
 .dropdown-menu {
     background-color: #0e1116;
     --bs-dropdown-link-active-bg: #23e0e7;
@@ -64,6 +69,11 @@ h2 {
 
 .dropdown-item:hover {
     background-color: #23e0e7;
+    color: #0e1116;
+}
+
+.dropdown-item:active {
+    background-color: #ade1e5;
     color: #0e1116;
 }
 
@@ -184,6 +194,7 @@ footer {
 
 .social-media-links {
     text-align: center;
+    padding: 0;
 }
 
 .social-media-links li {
@@ -207,6 +218,7 @@ footer {
     background-color: #eae8ff;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 5%;
     padding: 20px 2%;
     border-radius: 2px;
 }
@@ -218,21 +230,17 @@ label {
     margin-bottom: 5px;
 }
 
-.fname-text-input, .lname-text-input {
-    width: 75%;
-    margin-bottom: 10px;
+.fname-text-input, .lname-text-input, .email-input {
+    width: 75%; 
     height: 110%;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
-
-.email-input {
-    width: 75%;
-    margin-bottom: 10px;
-    height: 110%;
-} 
 
 .checkbox {
     height: 40px;
     width: 40px;
+    margin-right: 10px;
 }
 
 .new-info {
@@ -248,4 +256,30 @@ label {
 .comments {
     width: 90%;
     height: 100px;
+    padding: 10px 10px;
+}
+
+.submit-button {
+    background-color: #54645e;
+    padding: 5px 25px;
+    border-radius: 5%;
+    font-size: 20px;
+    color: #eae8ff; 
+    margin-top: 10px; 
+}
+
+.submit-button:hover {
+    background-color: #23e0e7;
+    color: #0e1116;  
+}
+
+.submit-button:active {
+    background-color: #ade1e5;
+    color: #eae8ff;  
+}
+
+@media only screen and (min-width: 992px) {
+    .container form {
+        width: 50%;
+    }
 }
