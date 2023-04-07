@@ -143,6 +143,7 @@ h2 {
 .card-img-top {
     height: 250px;
     border-radius:5px;
+    object-fit: cover;
 }
 
 .card-holder a {
@@ -182,6 +183,11 @@ h2 {
 .modal-photo {
     max-width: 100%;
     height: auto;
+}
+
+.modal-photo-portrait {
+    height: 70vh;
+    max-width: max-content;
 }
 
 /* Footer ----------------------------------------------------------------------*/
