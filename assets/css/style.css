@@ -194,7 +194,7 @@ h2 {
 footer {
     height: 56px;
     background-color: #0e1116;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .social-media-links {
@@ -289,6 +289,13 @@ label {
 .submit-button:active {
     background-color: #ade1e5;
     color: #eae8ff;  
+}
+
+#redirect-message {
+    background-color: #ade1e5;
+    padding-top: 10px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 992px) {
