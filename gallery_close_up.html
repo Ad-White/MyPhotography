@@ -1,262 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!---- Source = Bootstrap 5.3.0 -------------------------------------------------------------->
-    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-
-<!---- Source = Fontawesome ------------------------------------------------------------->    
-    <script src="https://kit.fontawesome.com/5100fb2b9b.js" crossorigin="anonymous"></script>
-<!---- MyPhotography Style Sheet   ------------------------------------------------------>  
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>My Photography - Gallery - Close Up</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---- Source = Bootstrap 5.3.0 -------------------------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <!---- Source = Fontawesome ------------------------------------------------------------->    
+  <script src="https://kit.fontawesome.com/5100fb2b9b.js" crossorigin="anonymous"></script>
+  <!---- MyPhotography Style Sheet   ------------------------------------------------------>  
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>My Photography - Gallery - Close Up</title>
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <h1>My Photography - Adam White</h1>
-        </div>
-        <!--- Navigation ------------------------------------------------------------------------>
-        <!---- Navbar code sourced from Bootstrap 5.3.0 Getbootstrap.com / Adapted for my own use ---->
-           
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Galleries
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="gallery_landscape.html">Landscape</a></li>
-                      <li><a class="dropdown-item" href="gallery_sea_and_sand.html">Sea & Sand</a></li>
-                      <li><a class="dropdown-item" href="gallery_digital.html">Digital</a></li>
-                      <li><a class="dropdown-item active" aria-current="page" href="gallery_close_up.html">Close Up</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="profile.html">Profile</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
-    <!------- Hero Image ----------------------------------------------------------->
-    <!------- Referenced from love running project, CodeInstitute ------------------> 
-    <section id="hero-outer">
-        <div id="hero-image"></div>       
-    </section>
-        <!------- End of reference ----------------------------------------------------->
-        <!------- Gallery Display Area -----------------------------------------------------> 
-    <section id="gallery-display-area">
-      <div class="welcome-title">
-        <h2>Close Up</h2>
+  <header>
+    <!--- Navigation ------------------------------------------------------------------------>
+    <!---- Navbar code sourced from Bootstrap 5.3.0 Getbootstrap.com / Adapted for my own use ---->
         
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_1">
-                <img src="assets/images/close_up/flower_bud_and_cobweb.jpg"  class="card-img-top" alt="A close up of an opening bud with cobwebs over it">
-              </div>  
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_2">
-                <img src="assets/images/close_up/white_flower.jpg"  class="card-img-top" alt="A large white flower in sunlight">
-              </div>   
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_3">
-                <img src="assets/images/close_up/butterfly_feeding.jpg" class="card-img-top" alt="A Painted Lady butterfly, feeding against a clear blue sky">
-              </div> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_4">
-                <img src="assets/images/close_up/hydrandea.jpg" class="card-img-top" alt="A close up of Hydrandea flowers">
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_5">
-                <img src="assets/images/close_up/bee_in_hollihox.jpg" class="card-img-top" alt="A bumble bee feeding in a Hollihox flower">
-              </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <div id="logo" class="me-auto">
+          <h1>My Photography - Adam White</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galleries
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="gallery_landscape.html">Landscape</a></li>
+                <li><a class="dropdown-item" href="gallery_sea_and_sand.html">Sea & Sand</a></li>
+                <li><a class="dropdown-item" href="gallery_digital.html">Digital</a></li>
+                <li><a class="dropdown-item active" aria-current="page" href="gallery_close_up.html">Close Up</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!------- Hero Image ----------------------------------------------------------->
+  <!------- Referenced from love running project, CodeInstitute ------------------> 
+  <section id="hero-outer">
+      <div id="hero-image"></div>       
+  </section>
+      <!------- End of reference ----------------------------------------------------->
+      <!------- Gallery Display Area -----------------------------------------------------> 
+  <section id="gallery-display-area">
+    <div class="welcome-title">
+      <h2>Close Up</h2>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_1">
+              <img src="assets/images/close_up/flower_bud_and_cobweb.jpg"  class="card-img-top" alt="A close up of an opening bud with cobwebs over it">
+            </div>  
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_2">
+              <img src="assets/images/close_up/white_flower.jpg"  class="card-img-top" alt="A large white flower in sunlight">
+            </div>   
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_3">
+              <img src="assets/images/close_up/butterfly_feeding.jpg" class="card-img-top" alt="A Painted Lady butterfly, feeding against a clear blue sky">
             </div> 
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_6">
-                <img src="assets/images/close_up/butterfly_feeding_close_up.jpg" class="card-img-top" alt="A Painted Lady butterfly feeding">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_4">
+              <img src="assets/images/close_up/hydrandea.jpg" class="card-img-top" alt="A close up of Hydrandea flowers">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_5">
+              <img src="assets/images/close_up/bee_in_hollihox.jpg" class="card-img-top" alt="A bumble bee feeding in a Hollihox flower">
+            </div>
+          </div> 
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_6">
+              <img src="assets/images/close_up/butterfly_feeding_close_up.jpg" class="card-img-top" alt="A Painted Lady butterfly feeding">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_7">
+              <img src="assets/images/close_up/dragon_fly_on_poppy_head.jpg" class="card-img-top" alt="A dragonfly on a poppy head">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_8">
+              <img src="assets/images/close_up/close_up_cow_brown.jpg" class="card-img-top" alt="A close up portrait of a brown and white cow">
+            </div>
+          </div>     
+        </div>
+      </div>    
+    </div>               
+  </section>
+    <!-- Modal - Source = Bootstrap 5.3.0 ---->
+    <div class="modal fade" id="galleryModal_1" tabindex="-1" aria-labelledby="galleryModalLabel_1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="galleryModal_1">Flowering Bud And Cobweb</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_7">
-                <img src="assets/images/close_up/dragon_fly_on_poppy_head.jpg" class="card-img-top" alt="A dragonfly on a poppy head">
+              <div class="modal-body">
+                <img src="assets/images/close_up/flower_bud_and_cobweb.jpg" class="card-img-top modal-photo" alt="A close up of an opening bud with cobwebs over it">
               </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_8">
-                <img src="assets/images/close_up/close_up_cow_brown.jpg" class="card-img-top" alt="A close up portrait of a brown and white cow">
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               </div>
-            </div>     
-          </div>
-        </div>    
-      </div>               
-    </section>
-
-  
-        <!-- Modal - Source = Bootstrap 5.3.0 ---->
-        <div class="modal fade" id="galleryModal_1" tabindex="-1" aria-labelledby="galleryModalLabel_1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                  <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="galleryModal_1">Flowering Bud And Cobweb</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="assets/images/close_up/flower_bud_and_cobweb.jpg" class="card-img-top modal-photo" alt="A close up of an opening bud with cobwebs over it">
-                  </div>
-                  <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-              </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_2" tabindex="-1" aria-labelledby="galleryModalLabel_2" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_2">White Flower In Sunlight</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/white_flower.jpg" class="card-img-top modal-photo" alt="A large white flower in sunlight">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
           </div>
         </div>
+    </div>
 
-        <div class="modal fade" id="galleryModal_3" tabindex="-1" aria-labelledby="galleryModalLabel_3" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_3">A Butterfly Feeding Against A Clear Blue Sky</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/butterfly_feeding.jpg" class="card-img-top modal-photo" alt="A Painted Lady butterfly, feeding against a clear blue sky">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+    <div class="modal fade" id="galleryModal_2" tabindex="-1" aria-labelledby="galleryModalLabel_2" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_2">White Flower In Sunlight</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_4" tabindex="-1" aria-labelledby="galleryModalLabel_4" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_4">Hydrandea</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/hydrandea.jpg" class="card-img-top modal-photo" alt="A close up of Hydrandea flowers">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/white_flower.jpg" class="card-img-top modal-photo" alt="A large white flower in sunlight">
             </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_5" tabindex="-1" aria-labelledby="galleryModalLabel_5" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_5">Bumble Bee In Hollihox</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/bee_in_hollihox.jpg" class="card-img-top modal-photo" alt="A bumble bee feeding in a Hollihox flower">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
-          </div>
         </div>
+      </div>
+    </div>
 
-        <div class="modal fade" id="galleryModal_6" tabindex="-1" aria-labelledby="galleryModalLabel_6" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_6">A Painted Lady Butterfly Feeding</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/butterfly_feeding_close_up.jpg" class="card-img-top modal-photo" alt="A Painted Lady butterfly feeding">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+    <div class="modal fade" id="galleryModal_3" tabindex="-1" aria-labelledby="galleryModalLabel_3" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_3">A Butterfly Feeding Against A Clear Blue Sky</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_7" tabindex="-1" aria-labelledby="galleryModalLabel_7" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_7">Dragonfly On A Poppy Head</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/dragon_fly_on_poppy_head.jpg" class="card-img-top modal-photo" alt="A dragonfly on a poppy head">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/butterfly_feeding.jpg" class="card-img-top modal-photo" alt="A Painted Lady butterfly, feeding against a clear blue sky">
             </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_8" tabindex="-1" aria-labelledby="galleryModalLabel_8" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_8">Portrait Of A Cow</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/close_up/close_up_cow_brown.jpg" class="card-img-top modal-photo" alt="A close up portrait of a brown and white cow">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
-          </div>
         </div>
+      </div>
+    </div>
 
-    <footer>
-        <ul class="social-media-links">
-            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
-    </footer>   
+    <div class="modal fade" id="galleryModal_4" tabindex="-1" aria-labelledby="galleryModalLabel_4" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_4">Hydrandea</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/hydrandea.jpg" class="card-img-top modal-photo" alt="A close up of Hydrandea flowers">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal_5" tabindex="-1" aria-labelledby="galleryModalLabel_5" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_5">Bumble Bee In Hollihox</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/bee_in_hollihox.jpg" class="card-img-top modal-photo" alt="A bumble bee feeding in a Hollihox flower">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal_6" tabindex="-1" aria-labelledby="galleryModalLabel_6" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_6">A Painted Lady Butterfly Feeding</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/butterfly_feeding_close_up.jpg" class="card-img-top modal-photo" alt="A Painted Lady butterfly feeding">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal_7" tabindex="-1" aria-labelledby="galleryModalLabel_7" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_7">Dragonfly On A Poppy Head</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/dragon_fly_on_poppy_head.jpg" class="card-img-top modal-photo" alt="A dragonfly on a poppy head">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal_8" tabindex="-1" aria-labelledby="galleryModalLabel_8" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_8">Portrait Of A Cow</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/close_up/close_up_cow_brown.jpg" class="card-img-top modal-photo" alt="A close up portrait of a brown and white cow">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <ul class="social-media-links">
+      <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+  </footer>   
 </body>
 </html>

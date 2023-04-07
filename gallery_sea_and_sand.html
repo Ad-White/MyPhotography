@@ -1,218 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!---- Source = Bootstrap 5.3.0 -------------------------------------------------------------->
-    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-
-<!---- Source = Fontawesome ------------------------------------------------------------->    
-    <script src="https://kit.fontawesome.com/5100fb2b9b.js" crossorigin="anonymous"></script>
-<!---- MyPhotography Style Sheet   ------------------------------------------------------>  
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>My Photography - Gallery - Sea & Sand</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---- Source = Bootstrap 5.3.0 --------------------------------------------------------------> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <!---- Source = Fontawesome ------------------------------------------------------------->    
+  <script src="https://kit.fontawesome.com/5100fb2b9b.js" crossorigin="anonymous"></script>
+  <!---- MyPhotography Style Sheet   ------------------------------------------------------>  
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>My Photography - Gallery - Sea & Sand</title>
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <h1>My Photography - Adam White</h1>
+  <header>
+    <!--- Navigation ------------------------------------------------------------------------>
+    <!---- Navbar code sourced from Bootstrap 5.3.0 Getbootstrap.com / Adapted for my own use ---->
+        
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <div id="logo" class="me-auto">
+          <h1>My Photography - Adam White</h1>
         </div>
-        <!--- Navigation ------------------------------------------------------------------------>
-        <!---- Navbar code sourced from Bootstrap 5.3.0 Getbootstrap.com / Adapted for my own use ---->
-           
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Galleries
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="gallery_landscape.html">Landscape</a></li>
-                      <li><a class="dropdown-item active" aria-current="page" href="gallery_sea_and_sand.html">Sea & Sand</a></li>
-                      <li><a class="dropdown-item" href="gallery_digital.html">Digital</a></li>
-                      <li><a class="dropdown-item" href="gallery_close_up.html">Close Up</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="profile.html">Profile</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
-    <!------- Hero Image ----------------------------------------------------------->
-    <!------- Referenced from love running project, CodeInstitute ------------------> 
-    <section id="hero-outer">
-        <div id="hero-image"></div>       
-    </section>
-        <!------- End of reference ----------------------------------------------------->
-        <!------- Gallery Display Area -----------------------------------------------------> 
-    <section id="gallery-display-area">
-      <div class="welcome-title">
-        <h2>Sea & Sand</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galleries
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="gallery_landscape.html">Landscape</a></li>
+                <li><a class="dropdown-item active" aria-current="page" href="gallery_sea_and_sand.html">Sea & Sand</a></li>
+                <li><a class="dropdown-item" href="gallery_digital.html">Digital</a></li>
+                <li><a class="dropdown-item" href="gallery_close_up.html">Close Up</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!------- Hero Image ----------------------------------------------------------->
+  <!------- Referenced from love running project, CodeInstitute ------------------> 
+  <section id="hero-outer">
+      <div id="hero-image"></div>       
+  </section>
+      <!------- End of reference ----------------------------------------------------->
+      <!------- Gallery Display Area -----------------------------------------------------> 
+  <section id="gallery-display-area">
+    <div class="welcome-title">
+      <h2>Sea & Sand</h2>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_1">
-                <img src="assets/images/sea_and_sand/west_bay_from_the_sea.jpg"  class="card-img-top" alt="A view of the cliffs of West Bay to Burton Bradstock from the sea">
-              </div>  
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_2">
-                <img src="assets/images/sea_and_sand/west_bay_cliff_from_pier_2.jpg"  class="card-img-top" alt="A view of the cliff at West Bay">
-              </div>   
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_3">
-                <img src="assets/images/sea_and_sand/st_michaels_mount_view_from_causeway.jpg" class="card-img-top" alt="A view of St.Michael's Mount, taken from the causeway">
-              </div> 
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_4">
-                <img src="assets/images/sea_and_sand/looe_view_of_east_looe_from_west_looe.jpg" class="card-img-top" alt="A view of across the harbour of East Looe, from West Looe">
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_1">
+              <img src="assets/images/sea_and_sand/west_bay_from_the_sea.jpg"  class="card-img-top" alt="A view of the cliffs of West Bay to Burton Bradstock from the sea">
+            </div>  
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_2">
+              <img src="assets/images/sea_and_sand/west_bay_cliff_from_pier_2.jpg"  class="card-img-top" alt="A view of the cliff at West Bay">
+            </div>   
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_3">
+              <img src="assets/images/sea_and_sand/st_michaels_mount_view_from_causeway.jpg" class="card-img-top" alt="A view of St.Michael's Mount, taken from the causeway">
             </div> 
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_5">
-                <img src="assets/images/sea_and_sand/landsend_view_of_longships_lighthouse.jpg"  class="card-img-top" alt="A view of Longships Lighthouse, Land's End">
-              </div>   
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_4">
+              <img src="assets/images/sea_and_sand/looe_view_of_east_looe_from_west_looe.jpg" class="card-img-top" alt="A view of across the harbour of East Looe, from West Looe">
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_6">
-                <img src="assets/images/sea_and_sand/mousehole_harbour_boats.jpg"  class="card-img-top" alt="A view of boats at the harbour in Mousehole">
-              </div>   
-            </div>
-            </div>
-          </div>    
-        </div>               
-    </section>
-
-  
-        <!-- Modal - Source = Bootstrap 5.3.0 ---->
-        <div class="modal fade" id="galleryModal_1" tabindex="-1" aria-labelledby="galleryModalLabel_1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                  <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="galleryModal_1">Cliffs Of West Bay To Burton Bradstock - from the sea</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="assets/images/sea_and_sand/west_bay_from_the_sea.jpg" class="card-img-top modal-photo" alt="A view of the cliffs of West Bay to Burton Bradstock from the sea">
-                  </div>
-                  <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
+          </div> 
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_5">
+              <img src="assets/images/sea_and_sand/landsend_view_of_longships_lighthouse.jpg"  class="card-img-top" alt="A view of Longships Lighthouse, Land's End">
+            </div>   
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card-gallery" data-bs-toggle="modal" data-bs-target="#galleryModal_6">
+              <img src="assets/images/sea_and_sand/mousehole_harbour_boats.jpg"  class="card-img-top" alt="A view of boats at the harbour in Mousehole">
+            </div>   
+          </div>
+          </div>
+        </div>    
+      </div>               
+  </section>
+    <!-- Modal - Source = Bootstrap 5.3.0 ---->
+    <div class="modal fade" id="galleryModal_1" tabindex="-1" aria-labelledby="galleryModalLabel_1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="galleryModal_1">Cliffs Of West Bay To Burton Bradstock - from the sea</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_2" tabindex="-1" aria-labelledby="galleryModalLabel_2" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_2">West Bay</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/sea_and_sand/west_bay_cliff_from_pier_2.jpg" class="card-img-top modal-photo" alt="A view of the cliff at West Bay">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
+              <div class="modal-body">
+                <img src="assets/images/sea_and_sand/west_bay_from_the_sea.jpg" class="card-img-top modal-photo" alt="A view of the cliffs of West Bay to Burton Bradstock from the sea">
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
           </div>
         </div>
+    </div>
 
-        <div class="modal fade" id="galleryModal_3" tabindex="-1" aria-labelledby="galleryModalLabel_3" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_3">St.Michael's Mount - From The Causeway</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/sea_and_sand/st_michaels_mount_view_from_causeway.jpg" class="card-img-top modal-photo" alt="A view of St.Michael's Mount, taken from the causeway">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+    <div class="modal fade" id="galleryModal_2" tabindex="-1" aria-labelledby="galleryModalLabel_2" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_2">West Bay</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_4" tabindex="-1" aria-labelledby="galleryModalLabel_4" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_4">East Looe From West Looe</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/sea_and_sand/looe_view_of_east_looe_from_west_looe.jpg" class="card-img-top modal-photo" alt="A view of across the harbour of East Looe, from West Looe">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div class="modal-body">
+              <img src="assets/images/sea_and_sand/west_bay_cliff_from_pier_2.jpg" class="card-img-top modal-photo" alt="A view of the cliff at West Bay">
             </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="galleryModal_5" tabindex="-1" aria-labelledby="galleryModalLabel_5" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_5">Longships Lighthouse - Land's End</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/sea_and_sand/landsend_view_of_longships_lighthouse.jpg" class="card-img-top modal-photo" alt="A view of Longships Lighthouse, Land's End">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
-          </div>
         </div>
+      </div>
+    </div>
 
-        <div class="modal fade" id="galleryModal_6" tabindex="-1" aria-labelledby="galleryModalLabel_6" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="galleryModal_6">Harbour Boats - Mousehole</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="assets/images/sea_and_sand/mousehole_harbour_boats.jpg" class="card-img-top modal-photo" alt="A view of boats at the harbour in Mousehole">
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+    <div class="modal fade" id="galleryModal_3" tabindex="-1" aria-labelledby="galleryModalLabel_3" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_3">St.Michael's Mount - From The Causeway</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
+            <div class="modal-body">
+              <img src="assets/images/sea_and_sand/st_michaels_mount_view_from_causeway.jpg" class="card-img-top modal-photo" alt="A view of St.Michael's Mount, taken from the causeway">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
+      </div>
+    </div>
 
-    <footer>
-        <ul class="social-media-links">
-            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
-    </footer>   
+    <div class="modal fade" id="galleryModal_4" tabindex="-1" aria-labelledby="galleryModalLabel_4" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_4">East Looe From West Looe</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/sea_and_sand/looe_view_of_east_looe_from_west_looe.jpg" class="card-img-top modal-photo" alt="A view of across the harbour of East Looe, from West Looe">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal_5" tabindex="-1" aria-labelledby="galleryModalLabel_5" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_5">Longships Lighthouse - Land's End</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/sea_and_sand/landsend_view_of_longships_lighthouse.jpg" class="card-img-top modal-photo" alt="A view of Longships Lighthouse, Land's End">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal_6" tabindex="-1" aria-labelledby="galleryModalLabel_6" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="galleryModal_6">Harbour Boats - Mousehole</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/images/sea_and_sand/mousehole_harbour_boats.jpg" class="card-img-top modal-photo" alt="A view of boats at the harbour in Mousehole">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <ul class="social-media-links">
+      <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+  </footer>   
 </body>
 </html>
