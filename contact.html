@@ -67,7 +67,10 @@
         <form action="#" target="_blank">
           <div class="row">
             <div class="col-12">
-              <label for="fname">First Name: </label>
+              <label for="fname">
+                <span class="required"> * </span>
+                First Name: 
+              </label>
             </div>
             <div class="col-12">
               <input type="text" id="fname" name="fname" class="fname-text-input" placeholder="Your name" required="true" maxlength="25">
@@ -75,7 +78,10 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <label for="lname">Last Name: </label>
+              <label for="lname">
+                <span class="required"> * </span>
+                Last Name: 
+              </label>
             </div>
             <div class="col-12">
               <input type="text" id="lname" name="lname" class="lname-text-input" placeholder="Your last name" required="true" maxlength="25">
@@ -83,17 +89,24 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <label for="email"><i class="fa-regular fa-envelope"></i> Email: </label>
+              <label for="email">
+                <span class="required"> * </span>
+                <i class="fa-regular fa-envelope"></i> Email: </label>
             </div>
             <div class="col-12">
               <input type="email" id="email" name="email" class="email-input" placeholder="Enter email address" required="true" maxlength="50">
             </div>
           </div>
+          <div class="row">
+            <div class="col-12 required-info">
+              <p><span class="required"> * </span>Required information</p>
+            </div>
+          </div>
           <div class="row new-info">
             <div class="col-12">
               <p>If you would like to be kept informed of any new additions to my site?</p>
-                <input type="checkbox" id="yes" name="yes-box" class="checkbox">
-                <label for="checkbox">Please tick here... <i class="fa-solid fa-check"></i></label>  
+                <input type="checkbox" id="check-box" name="checkbox" class="checkbox">
+                <label for="check-box">Please tick here... <i class="fa-solid fa-check"></i></label>  
             </div>
           </div>
           <div class="row">

@@ -242,6 +242,15 @@ label {
     padding-left: 10px;
 }
 
+.required {
+    color: #23e0e7;
+}
+
+.required-info {
+    color: #54645e;
+    margin-top: 20px;
+}
+
 .checkbox {
     height: 40px;
     width: 40px;
@@ -255,7 +264,6 @@ label {
     background-color: #ade1e5;
     border-radius: 1%;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 .comments {
