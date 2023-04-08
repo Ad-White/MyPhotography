@@ -207,8 +207,8 @@ footer {
 }
 
 .social-media-links i {
-    margin: 1%;
-    padding-top: 1%;
+    padding: 10px 10px;
+    font-size: 110%;
     color: #eae8ff;
 }
 
