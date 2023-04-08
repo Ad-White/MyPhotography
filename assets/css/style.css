@@ -12,16 +12,14 @@ body {
     color: #eae8ff;
 }
 
-/* Logo ------------------------------------------------------------------------*/
-
+/* Logo */
 #logo {
     color: #eae8ff;
     float: left;
     margin-left: 2%;
 }
 
-/* Headings --------------------------------------------------------------------*/
-
+/* Headings */
 h1 {
     font-family: 'Cormorant Garamond', serif;
 }
@@ -30,8 +28,7 @@ h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Navigation Menu -------------------------------------------------------------*/
-
+/* Navigation Menu */
 .navbar {
     margin-right: 2%;
 } 
@@ -76,7 +73,7 @@ h2, h3 {
     color: #0e1116;
 }
 
-/* Referenced from love running project, CodeInstitute ------------------------------*/
+/* Original code for hero-image, referenced from love running project, CodeInstitute */
 #hero-image {
     height: 500px;
     width: 100%;
@@ -85,6 +82,7 @@ h2, h3 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 #hero-outer {
     height: 500px;
     width: 100%;
@@ -99,9 +97,8 @@ h2, h3 {
         transform: scale(1.1);
     }
 }
-/* End Of Reference -----------------------------------------------------------------*/
 
-/* Gallery Display Area -------------------------------------------------------------*/
+/* Gallery Display Area */
 #gallery-display-area-homepage {
     width:90%;
     background-color: #54645e;
@@ -159,7 +156,7 @@ h2, h3 {
     color: #23e0e7;
 }
 
-/* Modal -----------------------------------------------------------------------*/
+/* Modal */
 .modal-body {
     background-color: #0e1116;
 }
@@ -190,7 +187,7 @@ h2, h3 {
     max-width: max-content;
 }
 
-/* Footer ----------------------------------------------------------------------*/
+/* Footer */
 footer {
     height: 56px;
     background-color: #0e1116;
@@ -217,7 +214,7 @@ footer {
     background-color: #23e0e7;
 }
 
-/* Form ------------------------------------------------------------------------*/
+/* Form */
 .container form {
     color: #0e1116;
     background-color: #eae8ff;
@@ -304,6 +301,7 @@ label {
     }
 }
 
+/* Articles On Profile Page */
 #history {
     background-color: #eae8ff;
     color: #0e1116;
@@ -334,6 +332,7 @@ label {
     border-radius: 5px;
 }
 
+/* contact me link */
 .contact-me {
     color: #23e0e7;
     text-decoration: none;
