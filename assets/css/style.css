@@ -26,7 +26,7 @@ h1 {
     font-family: 'Cormorant Garamond', serif;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -302,4 +302,48 @@ label {
     .container form {
         width: 50%;
     }
+}
+
+#history {
+    background-color: #eae8ff;
+    color: #0e1116;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#cameras-used {
+    background-color: #ade1e5;
+    color: #0e1116;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#coming-soon {
+    background-color: #0e1116;
+    color: #eae8ff;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-me {
+    color: #23e0e7;
+    text-decoration: none;
+} 
+.contact-me:hover {
+    background-color: #23e0e7;
+    color: #0e1116
+}
+
+.contact-me:active {
+    background-color: #ade1e5;
+    color: #0e1116
 }
