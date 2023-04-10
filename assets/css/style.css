@@ -122,6 +122,11 @@ h2, h3 {
     text-align: center;
 }
 
+.intro {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .card-holder {
     padding: 2px;
     margin: 10px;
