@@ -216,7 +216,7 @@ h2, h3 {
 .modal-photo-portrait {
     height: 70vh;
     max-width: max-content;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Footer */
