@@ -156,7 +156,7 @@ h2, h3 {
 .card-holder {
     padding: 2px;
     margin: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-size: 38px;
     display: inline-block;
 }
@@ -172,6 +172,11 @@ h2, h3 {
     height: 250px;
     border-radius:5px;
     object-fit: cover;
+}
+
+.card-text {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .card-holder a {
@@ -215,7 +220,6 @@ h2, h3 {
 
 .modal-photo-portrait {
     height: 70vh;
-    /* max-width: max-content; */
     object-fit: contain;
 }
 
@@ -272,7 +276,7 @@ label {
 }
 
 .required {
-    color: #23e0e7;
+    color: #54645e;
 }
 
 .required-info {
