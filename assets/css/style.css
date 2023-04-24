@@ -215,7 +215,7 @@ h2, h3 {
 
 .modal-photo-portrait {
     height: 70vh;
-    max-width: max-content;
+    /* max-width: max-content; */
     object-fit: contain;
 }
 
