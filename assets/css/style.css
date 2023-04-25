@@ -106,7 +106,6 @@ h2, h3 {
         animation-name: hero-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
-        overflow-y: auto;
     }
     
     #hero-outer {
