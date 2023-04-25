@@ -10,7 +10,6 @@ body {
     background-color: #0e1116;
     font-family: 'Average Sans', sans-serif;
     color: #eae8ff;
-    overflow-y: auto;
 }
 
 /* Logo */
@@ -107,6 +106,7 @@ h2, h3 {
         animation-name: hero-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
+        overflow-y: auto;
     }
     
     #hero-outer {
