@@ -11,11 +11,9 @@ And just in general, to expect anyone that may like to view my photographic coll
 Therefore, I have chosen to name it, "My Photography - Adam White". 
 
 
-!!!!!!!Add an image of the finished site here.
+![screenshot](documentation/am_i_responsive_image.png)
 
-!!!!Add a link to the live site here!!!
-
-Add shield badges here!!
+https://ui.dev/amiresponsive?url=https://ad-white.github.io/MyPhotography
 
 ## User Experience (UX)
 
@@ -130,44 +128,37 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 ![screenshot](documentation/feature01.png)
 
 **Feature #2
-
     - A main navigation system, for the entire site. Also, features a drop down menu for gallery selection.
 
 ![screenshot](documentation/feature02.png)
 
 **Feature #3
-
     - The site features a visually pleasing, clear, well structured design. With a large hero image, to draw the user's attention.  
 
 ![screenshot](documentation/feature03.png)
 
 **Feature #4
-
     - A home page with title and text area, to allow for an introduction.
 	Below this, a representation of the different categories of gallery for the user to select from. 
 
 ![screenshot](documentation/feature04.png)
   
 **Feature #5
-
     - The gallery pages themselves, feature all available photographs to view within that category. Set out in a clear, easy to see layout.
 
 ![screenshot](documentation/feature05.png)
 
 **Feature #6
-
     - Each image that the user would like to view. Opens its own modal within the gallery page itself and displays a large photograph with title.
 
 ![screenshot](documentation/feature06.png)
 
 **Feature #7 
-
     - A profile page. With three different text display sections. Representing different information eg. History, Cameras and future expectations.
 
 ![screenshot](documentation/feature07.png)
 
 **Feature #8 
-
     - A contact page featuring a form, allowing the viewer to send feedback/comments.
 	 With an option to tick a checkbox to be informed of future photographic additions.
 	This form also includes validation, required for first name, last name and email address. 
@@ -175,10 +166,19 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 ![screenshot](documentation/feature08.png)
 
 **Feature #9
-
     - A footer, containing links to different social media platforms. 
 
 ![screenshot](documentation/feature09.png)
+
+**Feature #10 
+	- A favicon, making it easy to identify this site among other open tabs within the users browser. 
+
+![screenshot](documentation/feature_favicon.png)
+
+**Feature #11 
+	- A responsive design, tested for use with Chrome, Safari, Edge and Firefox across a variety of devices. Mobile, tablet and desktop.
+	 
+![screenshot](documentation/responsive_mobile_navigation.png)
 
 
 ### Future Implementations
@@ -227,6 +227,7 @@ amiresponsive
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Google Dev Tools] Accessed from Google Chrome.
+- [Corel - Photo Paint Software] used for general editing of all images within the site.
 
 ## Deployment & Local Development
 
@@ -274,7 +275,7 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 
 ## Testing
 
-W3C validation for html and css.
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Credits
 
