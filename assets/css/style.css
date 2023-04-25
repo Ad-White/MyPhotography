@@ -10,6 +10,7 @@ body {
     background-color: #0e1116;
     font-family: 'Average Sans', sans-serif;
     color: #eae8ff;
+    overflow-y: auto;
 }
 
 /* Logo */
