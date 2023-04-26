@@ -209,7 +209,8 @@ I have tried to adhere to current best practices during the production of this w
 
 During the design process, I have taken into consideration the recommendations from [The Web Accessibility Guidlines](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
 
-During the testing process, I have tested each of the websites pages using Wave.[Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+During the testing process, I have tested each of the websites pages using Wave. [Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
 I have also tested each of the websites pages using Google Lighthouse.
 
 I have implemented changes to my design as a response to any issues resulting from this testing.
