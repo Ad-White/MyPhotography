@@ -50,7 +50,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Device | Home | Gallery | Gallery Modal | Profile | Contact | Thank you | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Mobile | ![screenshot](documentation/responsive_mobile_homepage.png) | ![screenshot](documentation/responsive_mobile_gallery_digital.png) | ![screenshot](documentation/responsive_mobile_gallery_digital_modal.png) | ![screenshot](documentation/responsive_mobile_profile.png) | ![screenshot](documentation/responsive_mobile_contact.png) | ![screenshot](documentation/responsive_mobile_thankyou.png) | Works as expected |
-| Mobile - Horizontal| ![screenshot](documentation/responsive_mobile_homepage_horizontal.png) | ![screenshot](documentation/responsive_mobile_gallery_digital_horizontal.png) | ![screenshot](documentation/responsive_mobile_gallery_digital_modal_horizontal.png) | ![screenshot](documentation/responsive_mobile_profile_horizontal.png) | ![screenshot](documentation/responsive_mobile_contact_horizontal.png) | ![screenshot](documentation/responsive_mobile_thankyou_horizontal.png) | Works as expected |
+| Mobile - Horizontal| ![screenshot](documentation/responsive_mobile_home_horizontal.png) | ![screenshot](documentation/responsive_mobile_gallery_digital_horizontal.png) | ![screenshot](documentation/responsive_mobile_gallery_digital_modal_horizontal.png) | ![screenshot](documentation/responsive_mobile_profile_horizontal.png) | ![screenshot](documentation/responsive_mobile_contact_horizontal.png) | ![screenshot](documentation/responsive_mobile_thankyou_horizontal.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive_tablet_homepage.png) | ![screenshot](documentation/responsive_tablet_gallery_close_up.png) | ![screenshot](documentation/responsive_tablet_gallery_close_up_modal.png) | ![screenshot](documentation/responsive_tablet_profile.png) | ![screenshot](documentation/responsive_tablet_contact.png) | ![screenshot](documentation/responsive_tablet_thankyou.png) | Works as expected |
 | Tablet (DevTools) - Horizontal | ![screenshot](documentation/responsive_tablet_homepage_horizontal.png) | ![screenshot](documentation/responsive_tablet_gallery_close_up_horizontal.png) | ![screenshot](documentation/responsive_tablet_gallery_close_up_modal_horizontal.png) | ![screenshot](documentation/responsive_tablet_profile_horizontal.png) | ![screenshot](documentation/responsive_tablet_contact_horizontal.png) | ![screenshot](documentation/responsive_tablet_thankyou_horizontal.png) | Works as expected |
 | Desktop | ![screenshot](documentation/chrome_homepage.png) | ![screenshot](documentation/chrome_gallery_landscape.png) | ![screenshot](documentation/chrome_gallery_modal.png) | ![screenshot](documentation/chrome_profile.png) | ![screenshot](documentation/chrome_contact.png) | ![screenshot](documentation/chrome_thankyou.png) | Works as expected |
@@ -92,7 +92,7 @@ Initial test results relating to the homepage. Suggested making a paragraph elem
 
 ![screenshot](documentation/wave_homepage_alerts.png)
 
- - I have since changed the <p> element into an <h2> element.
+ - I have since changed the 'p' element into an 'h2' element.
 
 Initial test results relating to the contact page. Suggested making an improvement to the contrast of the symbol used for 'required information'.
 
@@ -118,7 +118,7 @@ I've tested my deployed project using WAVE, Web Accessibility Evaluation Tool to
 ## User Story Testing
 
 | User Story | Screenshot - example |
-| --- | --- | --- |
+| --- | --- |
 | As a new site user, I would like to find a range of photographs, so that I can enjoy looking through them. | ![screenshot](documentation/chrome_homepage.png) 
 | As a new site user, I would like to view a specific type of photographic category. | ![screenshot](documentation/chrome_home_navigation.png) |
 | As a new site user, I would like to leave a comment/feedback in relation to the general photographic content within the website. | ![screenshot](documentation/feature08.png) |

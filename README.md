@@ -53,7 +53,7 @@ As a returning site user, I would like to know of any new additions to the galle
 ### Colour Scheme
 
 I have chosen a fairly monochromatic group of colours. Which has helped to provide good contrast, so I can promote the photographic content being displayed. To maximise the colours within them, and not 'fight' against the colours of the site itself.
-I've selected to use a vibrant blue to act as a high light. Eye catching without being over bearing. 
+I've selected to use a vibrant blue to act as a highlight. Eye catching without being overbearing. 
 
 - `eae8ff` used for primary text.
 - `#23e0e7` used for primary highlights.
@@ -204,9 +204,15 @@ As the gallery grows. The ability to display the photographs dynamically would b
 
 ### Accessibility
 
-typeface used. 
-contrasting colours.
-screen reader users considered.
+I have designed this website with the intention of making it easy for all users to navigate and enjoy.
+I have tried to adhere to current best practices during the production of this website.
+
+During the design process, I have taken into consideration the recommendations from [The Web Accessibility Guidlines](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
+
+During the testing process, I have tested each of the websites pages using Wave.[Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+I have also tested each of the websites pages using Google Lighthouse.
+
+I have implemented changes to my design as a response to any issues resulting from this testing.
 
 ## Technologies Used
 
