@@ -179,7 +179,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 **Feature #11 
 	- A responsive design, tested for use with Chrome, Safari, Edge and Firefox across a variety of devices. Mobile, tablet and desktop.
 	 
-![screenshot](documentation/responsive_mobile_navigation.png)
+![screenshot](documentation/responsive_mobile_navigation_2.png)
 
 
 ### Future Implementations
