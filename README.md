@@ -12,7 +12,7 @@ Therefore, I have chosen to name it, "My Photography - Adam White".
 
 ![screenshot](documentation/am_i_responsive_image.png)
 
- You can view the site on Am I Responsive [here] https://ui.dev/amiresponsive?url=https://ad-white.github.io/MyPhotography
+ You can view the site on Am I Responsive [here](https://ui.dev/amiresponsive?url=https://ad-white.github.io/MyPhotography)
 
  The live link can be found [here](https://ad-white.github.io/MyPhotography)
 
