@@ -170,7 +170,7 @@ Bug 04
     When testing this only seems to occur if the device is rotated a number of times.
     The photograph retains its ratio within the modal. Yet the modal re-sizes itself slightly smaller and to the left of the screen, rather than center.
 
-![screenshot](documentation/firefox_rotational_issue.png) 
+![screenshot](documentation/firefox_rotational_issue2.png) 
 
 
 Bug 05
@@ -248,7 +248,7 @@ Bug 04 - Relates to Bug 03.
     When testing this only seems to occur if the device is rotated a number of times.
     The photograph retains its ratio within the modal. Yet the modal re-sizes itself slightly smaller and to the left of the screen, rather than center.
 
-![screenshot](documentation/firefox_rotational_issue.png)
+![screenshot](documentation/firefox_rotational_issue2.png)
 
     Fixing this bug is more about aesthetics and continuity across browsers. 
     As it has no detrimental effect to the users experience, and is also caused by non-expected unusual rotational behaviour.
