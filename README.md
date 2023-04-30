@@ -296,6 +296,7 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 | [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) | entire site | responsive/cards/modal/navbar |
 | [W3Schools](https://www.w3schools.com/) | entire site | general resource |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Creating  Your First Readme](https://github.com/kera-cudmore/readme-examples) | README | Guide to creating your first readme |
 | [Code Institute](https://codeinstitute.net/) | entire site | animated hero image |
 
 ### Media
@@ -306,5 +307,5 @@ All images used throughout the site have been provided by myself.
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/traveltimn) for their invaluable support throughout the development of this project.
 - I would like to thank my tutor, Nigel Edwards from the [College Of West Anglia](https://cwa.ac.uk), for their suggestions and assistance with the development of this project.
-- I would like to thank [Kera Cudmore](https://github.com/kera-cudmore/readme-examples), for her excellent guide to creating your first readme.
+- I would like to thank [Kera Cudmore](https://github.com/kera-cudmore), for her excellent guide to creating your first readme.
 - I would like to thank my partner Michelle, for believing in me, and supporting me to make this transition into software development.

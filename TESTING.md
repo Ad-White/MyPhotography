@@ -92,7 +92,7 @@ Initial test results relating to the homepage. Suggested making a paragraph elem
 
 ![screenshot](documentation/wave_homepage_alerts.png)
 
- - I have since changed the 'p' element into an 'h2' element.
+ - I have since changed the `p` element into an `h2` element.
 
 Initial test results relating to the contact page. Suggested making an improvement to the contrast of the symbol used for 'required information'.
 
@@ -123,108 +123,86 @@ I've tested my deployed project using WAVE, Web Accessibility Evaluation Tool to
 | As a new site user, I would like to view a specific type of photographic category. | ![screenshot](documentation/chrome_home_navigation.png) |
 | As a new site user, I would like to leave a comment/feedback in relation to the general photographic content within the website. | ![screenshot](documentation/feature08.png) |
 | As a new site user, I would like to be able to make a request for notification of any further photographic additions in the future. | ![screenshot](documentation/chrome_contact.png) |
-| As a returning site user, I would like to know of any new additions to the galleries, so that I can enjoy looking at them. | ![screenshot](documentation/responsive_mobile_navigation.png) |
+| As a returning site user, I would like to know of any new additions to the galleries, so that I can enjoy looking at them. | ![screenshot](documentation/responsive_mobile_navigation_2.png) |
 
 
 ## Bugs
 
-Bug 01
-
-- Strange 'jumping' out of position navbar related behaviour.
-    During the development of the site structure, implementing and styling the bootstrap navbar. When opening or collapsing the navbar element, it would jump out of position.
+**Bug 01**
+- Strange 'jumping' out of position navbar related behaviour. During the development of the site structure, implementing and styling the bootstrap navbar. When opening or collapsing the navbar element, it would jump out of position.
   
-    - To fix this, it was necessary to correct a div tag related positioning error, relating to the header and navigation element.
-      It was also necessary to apply a class of "me-auto" to the div with id="logo". Also, to add "ms-auto" within the ul element of the the navbar dropdown menu. 
+- To fix this, it was necessary to correct a div tag related positioning error, relating to the header and navigation element. It was also necessary to apply a class of `me-auto` to the div with `id="logo"`. Also, to add `ms-auto` within the `ul` element of the the navbar dropdown menu. 
 
 ![screenshot](documentation/bug_fix_navbar.png)
 
-Bug 02
-
-- Photographs in a portrait format would require a lot of vertical scrolling in order to see the entire image when viewed on a desktop. 
-  I wanted to have the photographs scale to fit somewhere closer to the confines of the users display.
+**Bug 02**
+- Photographs in a portrait format would require a lot of vertical scrolling in order to see the entire image when viewed on a desktop. I wanted to have the photographs scale to fit somewhere closer to the confines of the users display.
   
-  - To fix this I made a css class to target any portrait images. The fix can be seen in this screenshot...
+- To fix this I made a css class to target any portrait images. The fix can be seen in this screenshot...
 
 ![screenshot](documentation/chrome_gallery_modal_2.png)
 
-Bug 03
-
-- Relates to Bug 02. 
-    The portrait images display larger than the confines of the modal. Giving an enlarged appearance within the modal itself. 
-    Resulting in users viewing on a desktop, using Safari or Firefox unable to see the entire photograph.
-    Tests conducted using Safari and Firefox on a mobile device produce the same behaviour when in a horizontal orientation.
+**Bug 03**
+- Relates to Bug 02. The portrait images display larger than the confines of the modal. Giving an enlarged appearance within the modal itself. Resulting in users viewing on a desktop, using Safari or Firefox unable to see the entire photograph.
+Tests conducted using Safari and Firefox on a mobile device produce the same behaviour when in a horizontal orientation.
 
 ![screenshot](documentation/firefox_gallery_modal_2.png) 
   
-  - To fix this, I added, "object-fit: contain" to the class, "modal-photo-portrait".
+- To fix this, I added `object-fit: contain` to the class `modal-photo-portrait`.
 
 | Device | Safari | Firefox | 
 | --- | --- | --- |
 | Mobile | ![screenshot](documentation/safari_mobile_bug_fix.png) | ![screenshot](documentation/firefox_mobile_bug_fix.png) |
 | Desktop | ![screenshot](documentation/safari_desktop_bug_fix.png) | ![screenshot](documentation/firefox_desktop_bug_fix.png) |
 
-Bug 04
-
-- Relates to Bug 03. 
-    Modal positoning with portrait photos on mobile device, using Firefox.
-    When testing this only seems to occur if the device is rotated a number of times.
-    The photograph retains its ratio within the modal. Yet the modal re-sizes itself slightly smaller and to the left of the screen, rather than center.
+**Bug 04**
+- Relates to Bug 03. Modal positoning with portrait photos on mobile device, using Firefox. When testing this only seems to occur if the device is rotated a number of times. The photograph retains its ratio within the modal. Yet the modal re-sizes itself slightly smaller and to the left of the screen, rather than center.
 
 ![screenshot](documentation/firefox_rotational_issue2.png) 
 
-
-Bug 05
-
--   Hero image over flows within browser window, removing scroll bar. 
-    Throughout testing this seems to occur randomly, so was difficult to capture.
-    Effects google chrome on desktop. Safari when testing on a Macbook, (however, with touch pad it doesn't offer any user issues).
+**Bug 05**
+-   Hero image over flows within browser window, removing scroll bar. Throughout testing this seems to occur randomly, so was difficult to capture. Effects google chrome on desktop. Safari when testing on a Macbook, (however, with touch pad it doesn't offer any user issues).
 
 ![screenshot](documentation/hero_image_overflow.png) 
   
-  - To fix this, I experimented with the overflow properties in css, so far with no success.
+- To fix this, I experimented with the overflow properties in css, so far with no success.
 
+Early tests from running html and css validation checks, resulted in a couple of errors and a few warnings.
 
-- Early tests from running html and css validation checks, resulted in a couple of errors and a few warnings.
-
-Error 01
-
+**Error 01**
 - Bad value true for attribute required on element input.
 
 ![screenshot](documentation/error_bad_value_for_attributes.png)
 
-    - To fix this, I removed the '="true" attribute from the input elements.
+- To fix this, I removed the ="true" attribute from the input elements.
 
-Error 02
-
+**Error 02**
 - The value of the for attribute of the label element must be the ID of a non-hidden form control.
 
 ![screenshot](documentation/error_label_for_checkbox.png)
 
-    - To fix this, I renamed the label for check-box to match the name used as the input id.
+- To fix this, I renamed the label for check-box to match the name used as the input id.
 
-Warning 01
-
+**Warning 01**
 - Warning The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment. 
 
 ![screenshot](documentation/warning_hyphens.png)
 
-    - To fix this, I changed the format of my comments.
+- To fix this, I changed the format of my comments.
 
-Warning 02
-
+**Warning 02**
 - Warning Section lacks heading. 
 
 ![screenshot](documentation/warning_section_lacks_header.png)
 
-    - To fix this, I changed the the section to a div element.
+- To fix this, I changed the the section to a div element.
 
-Warning 03
-
-- Warning Consider using the h1 element as a top-level heading only. 
+**Warning 03**
+- Warning Consider using the `h1` element as a top-level heading only. 
 
 ![screenshot](documentation/warning_use_of_h1.png)
 
-    - To fix this, I changed the heading h1 within the modals of the gallery pages to an h2 element instead. Leaving only one h1 element per page for the logo.
+- To fix this, I changed the heading `h1` within the modals of the gallery pages to an `h2` element instead. Leaving only one `h1` element per page for the logo.
 	
 
 **Fixed Bugs, Errors and Warnings**
@@ -243,29 +221,21 @@ Warning 03
 
 ## Unfixed Bugs, Errors and Warnings
 
-Bug 04 - Relates to Bug 03. 
-    Modal positoning problem with portrait photos on mobile device, using Firefox.
-    When testing this only seems to occur if the device is rotated a number of times.
-    The photograph retains its ratio within the modal. Yet the modal re-sizes itself slightly smaller and to the left of the screen, rather than center.
+**Bug 04**
+- Relates to Bug 03. Modal positoning problem with portrait photos on mobile device, using Firefox. When testing this only seems to occur if the device is rotated a number of times. The photograph retains its ratio within the modal. Yet the modal re-sizes itself slightly smaller and to the left of the screen, rather than center.
 
 ![screenshot](documentation/firefox_rotational_issue2.png)
 
-    Fixing this bug is more about aesthetics and continuity across browsers. 
-    As it has no detrimental effect to the users experience, and is also caused by non-expected unusual rotational behaviour.
-    I am happy to leave this at present.
-    Further research is required.
+- Fixing this bug is more about aesthetics and continuity across browsers. As it has no detrimental effect to the users experience, and is also caused by non-expected unusual rotational behaviour. I am happy to leave this at present. Further research is required.
 
-Bug 05 - Hero image over flows within browser window, removing scroll bar. 
-    Throughout testing this seems to occur randomly, so was difficult to capture.
-    Effects google chrome on desktop. Safari when testing on a Macbook, (however, with touch pad it doesn't offer any user issues).
+**Bug 05**
+- Hero image over flows within browser window, removing scroll bar. Throughout testing this seems to occur randomly, so was difficult to capture. Effects google chrome on desktop. Safari when testing on a Macbook (however, with touch pad it doesn't offer any user issues).
 
 ![screenshot](documentation/hero_image_overflow.png) 
   
-  - To fix this, I experimented with overflow properties using css, with no success to date.
+- To fix this, I experimented with overflow properties using css, with no success to date.
 
-    Whenever I have encountered this bug. Scrolling can still be achieved through keyboard commands, "page up/down".
-    Refreshing the page or clicking on another page within the site and back again; has caused the vertical scroll bar to re-appear.
-    Further research is required.
+- Whenever I have encountered this bug. Scrolling can still be achieved through keyboard commands, "page up/down". Refreshing the page or clicking on another page within the site and back again; has caused the vertical scroll bar to re-appear. Further research is required.
 
 
 Any remaining errors or warnings to my knowledge, are as a result of the valitading software, trying to validate external libraries and/or frameworks.
