@@ -60,6 +60,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 Initial testing showed performance related warnings for both mobile and desktop. Mainly in relation to the size of the hero-image.
 As my response, I resampled the hero-image to a smaller resolution for desktop use. Then I created another smaller version of the hero image and added a media query to control it's use on smaller devices.
+I also created a second set of smaller images for use in the gallery sections area on the homepage. I also created smaller images for use within each gallery display area. 
 
 In order to improve upon the inital test results. It was recommended to include meta data for the pages of the site. Also, to make the social media links more 'meaningful'.
 I acheived this by adding the recommended meta data, and by adding aria-labels to the fontawesome icons assocciated with the social media links.
@@ -101,7 +102,7 @@ Initial test results relating to the contact page. Suggested making an improveme
  - I have now changed the colour used for the required (*) symbol.
 
 
-I've tested my deployed project using WAVE, Web Accessibility Evaluation Tool to check for any major issues.
+I've tested my deployed project using WAVE, [Web Accessibility Evaluation Tool](https://wave.webaim.org) to check for any major issues.
 
 | Page | Screenshot | Notes |
 | --- | --- | --- |
