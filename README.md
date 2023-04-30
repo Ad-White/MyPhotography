@@ -121,83 +121,85 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet_contact.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop_contact.png) |
 
+## Features
+
 ### Existing Features
 
-** Feature #1
-    - A simple, effective, high contrast logo. Clearly identifying the sites purpose and originator of site content. 
+**Banded Logo**
+- A simple, effective, high contrast logo. Clearly identifying the sites purpose and originator of site content. 
 
 ![screenshot](documentation/feature01.png)
 
-**Feature #2
-    - A main navigation system, for the entire site. Also, features a drop down menu for gallery selection.
+**Navigation System**
+- A main navigation system, for the entire site. Also, features a drop down menu for gallery selection.
 
 ![screenshot](documentation/feature02.png)
 
-**Feature #3
-    - The site features a visually pleasing, clear, well structured design. With a large hero image, to draw the user's attention.  
+**Hero Image**
+- The site features a visually pleasing, clear, well structured design. With a large hero image, to draw the user's attention.  
 
 ![screenshot](documentation/feature03.png)
 
-**Feature #4
-    - A home page with title and text area, to allow for an introduction.
-	Below this, a representation of the different categories of gallery for the user to select from. 
+**Home Page**
+- A home page with title and text area, to allow for an introduction.
+Below this, a representation of the different categories of gallery for the user to select from. 
 
 ![screenshot](documentation/feature04.png)
   
-**Feature #5
-    - The gallery pages themselves, feature all available photographs to view within that category. Set out in a clear, easy to see layout.
+**Gallery**
+- The gallery pages themselves, feature all available photographs to view within that category. Set out in a clear, easy to see layout.
 
 ![screenshot](documentation/feature05.png)
 
-**Feature #6
-    - Each image that the user would like to view. Opens its own modal within the gallery page itself and displays a large photograph with title.
+**Modal Gallery**
+- Each image that the user would like to view. Opens its own modal within the gallery page itself and displays a large photograph with title.
 
 ![screenshot](documentation/feature06.png)
 
-**Feature #7 
-    - A profile page. With three different text display sections. Representing different information eg. History, Cameras and future expectations.
+**Profile Page** 
+- A profile page. With three different text display sections. Representing different information eg. history, cameras and future expectations.
 
 ![screenshot](documentation/feature07.png)
 
-**Feature #8 
-    - A contact page featuring a form, allowing the viewer to send feedback/comments.
-	 With an option to tick a checkbox to be informed of future photographic additions.
-	This form also includes validation, required for first name, last name and email address. 
+**Contact Page** 
+- A contact page featuring a form, allowing the viewer to send feedback/comments.
+With an option to tick a checkbox to be informed of future photographic additions.
+This form also includes validation required for first name, last name and email address. 
 
 ![screenshot](documentation/feature08.png)
 
-**Feature #9
-    - A footer, containing links to different social media platforms. 
+**Footer**
+- A footer, containing links to different social media platforms. 
 
 ![screenshot](documentation/feature09.png)
 
-**Feature #10 
-	- A favicon, making it easy to identify this site among other open tabs within the users browser. 
+**Favicon** 
+- A favicon, making it easy to identify this site among other open tabs within the users browser. 
 
 ![screenshot](documentation/feature_favicon.png)
 
-**Feature #11 
-	- A responsive design, tested for use with Chrome, Safari, Edge and Firefox across a variety of devices. Mobile, tablet and desktop.
+**Responsive Design** 
+- A responsive design, tested for use with Chrome, Safari, Edge and Firefox across a variety of devices. Mobile, tablet and desktop.
 	 
 ![screenshot](documentation/responsive_mobile_navigation_2.png)
 
 
 ### Future Implementations
 
-**Future Feature 1
+**Mailing List**
 
 Add back end technology in order to process the form on the contact page.
 Allow for the possibility of signing up to a mailing list.
 
-**Future Feature 2
+**Comments Page**
 
 Add a new page for somewhere to display comments received.
 
-**Future Feature 3
+**Ratings System**
 
 The possibility of having people sign up/register. To give them the option of rating photographs using a star/icon style system. 
 
-**Future Feature 4 
+**Connection To A Database** 
 
 As the gallery grows. The ability to display the photographs dynamically would be an advantage.
 
@@ -234,15 +236,15 @@ amiresponsive
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Google Dev Tools] Accessed from Google Chrome.
-- [Corel - Photo Paint Software] used for general editing of all images within the site.
+- Google Dev Tools - Accessed from Google Chrome.
+- Corel - Photo Paint Software - used for general editing of all images within the site.
 
 ## Deployment & Local Development
 
 ### Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
-- In the [GitHub repository](https://github.com/Ad-White/MyPhotography.git), navigate to the Settings tab 
+- In the [GitHub repository](https://github.com/Ad-White/MyPhotography), navigate to the Settings tab 
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
@@ -257,7 +259,7 @@ This project can be cloned or forked in order to make a local copy on your own s
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Ad-White/MyPhotography.git)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Ad-White/MyPhotography)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
@@ -265,18 +267,18 @@ You can fork this repository by using the following steps:
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Ad-White/MyPhotography.git) 
+1. Go to the [GitHub repository](https://github.com/Ad-White/MyPhotography) 
 2. Locate the Code button above the list of files and click it 
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Ad-White/MyPhotography.git.git`
+	- `git clone https://github.com/Ad-White/MyPhotography.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ad-White/MyPhotography.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ad-White/MyPhotography)
 
 Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
 A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension). 
@@ -287,13 +289,14 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Credits
 
-### Code Used
-
-Reference any code I may use.
-
 ### Content
 
-I am the sole contributor to the development of this website.
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) | entire site | responsive/cards/modal/navbar |
+| [W3Schools](https://www.w3schools.com/) | entire site | general resource |
+| [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Code Institute](https://codeinstitute.net/) | entire site | animated hero image |
 
 ### Media
 
@@ -301,7 +304,7 @@ All images used throughout the site have been provided by myself.
   
 ### Acknowledgments
 
-Thank you to all that have helped me. 
-name
-name
-name
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/traveltimn) for their invaluable support throughout the development of this project.
+- I would like to thank my tutor, Nigel Edwards from the [College Of West Anglia](https://cwa.ac.uk), for their suggestions and assistance with the development of this project.
+- I would like to thank [Kera Cudmore](https://github.com/kera-cudmore/readme-examples), for her excellent guide to creating your first readme.
+- I would like to thank my partner Michelle, for believing in me, and supporting me to make this transition into software development.
